@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Clear the data
+/usr/bin/python3 /home/ubuntu/Linux-Saison8/fileClear.py
+
 # Fetch the web page HTML
 html=$(curl -s https://www.coingecko.com/en/coins/bitcoin)
 
@@ -20,5 +23,3 @@ sudo fuser -k 8050/tcp
 
 #update the python code 
 /usr/bin/python3 /home/ubuntu/Linux-Saison8/getPrice.py
-
-/usr/bin/python3 /home/ubuntu/Linux-Saison8/fileClear.py
