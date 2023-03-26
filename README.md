@@ -32,3 +32,6 @@ python3 getPrice.py
 python3 fileClear.py
 
 run localhost:8050 on your web Browser
+
+mon dashboard:http://34.229.49.11:8050/
+
